@@ -1,0 +1,11 @@
+kibot:
+  version: 1
+
+preflight:
+  run_erc: true
+  run_drc: false
+
+outputs:
+  - name: schematic_pdf
+    type: pdf_sch_print
+    dir: Generated
